@@ -11,8 +11,8 @@ class Grid extends Component {
 
 			
   				<div className={this.props.tamanho}>
-  				<GridContent titulo={this.props.titulo} nick={this.props.nick} color={this.props.color} />
-  				<GridSubContent />
+  				  <GridContent titulo={this.props.titulo} nick={this.props.nick} color={this.props.color} anuncio={this.props.anuncio} hashtag={this.props.hashtag} descricao={this.props.descricao} />
+  				  <GridSubContent />
   				</div>
   			
 

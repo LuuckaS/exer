@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import GridButton from'./gridButton.js';
 import './App.css';
 
 class GridSubContent extends Component {
@@ -25,7 +26,7 @@ class GridSubContent extends Component {
 			<div>
 				<p>Tweets    Followers</p>
 				<p>{this.state.tweets} {this.state.followers}</p>
-				<button onClick={this.adicionar.bind(this)} />
+				<GridButton chamada="this.adicionar.bind(this)" nome="Follow" />
 			</div>
 
      );
